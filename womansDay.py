@@ -1,11 +1,3 @@
-# No dia da mulher a loja Remmer decidiu fazer uma promoção. Qualquer compra feita por uma mulher terá 20% de desconto e qualquer compra feita por um homem casado terá 5% de desconto. Faça um programa que retorne 
-#   - O valor do desconto em porcentagem e em reais  
-#   - O valor total a ser pago por uma compra
-
-# Considere: 
-# Para calcular o valor do desconto basta multiplicar o valor da compra pelo valor da porcentagem divido por 100. 
-# Exemplo: se a compra sem desconto é 50 reais, para dar 5% de desconto basta fazer a conta 50 * 5/100
-
 valor = float(input('Digite o valor da peça: '))
 sexo = str(input('Insira o sexo (Homem/Mulher): ').lower())
 
